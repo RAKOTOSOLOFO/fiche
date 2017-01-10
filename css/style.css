@@ -2,15 +2,15 @@ html, body
     {
         height: 100%;
     }
-
-
 h1{
     text-align: center;
-    border:5px solid yellow
+    border:3px solid yellow
 }
 label{
-    text-align: right;
+
     color:red;
+    display: inline-block;
+    width: 5em
 }
 a
 {
@@ -18,13 +18,16 @@ a
 }
 body
 {
-    background-image:url('../img/baobab.jpg');
+    background-image:url('../img/Ciel_bleu.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: auto;
+    
 }
 label
 {
-    margin-right:3em
-    text-align last:auto;right:
+    margin-right:10em
+    text-align :auto:right;
+ul
+{
+
 }
