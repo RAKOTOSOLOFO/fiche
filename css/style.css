@@ -9,7 +9,7 @@ h1{
 label{
 
     color:red;
-    display: inline-block;
+    display: block;
     width: 5em
 }
 a
@@ -21,13 +21,28 @@ body
     background-image:url('../img/Ciel_bleu.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-label
+input
 {
-    margin-right:10em
-    text-align :auto:right;
-ul
-{
+    margin-bottom: 1em;
+    display: block;
+}
+
+section {
+    margin: 20em 0;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 2em;
+}
+nav a{
+
+    border: 2px solid #bda5a5 ;
+    padding: 0.3em;
 
 }
